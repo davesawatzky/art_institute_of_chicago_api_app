@@ -1,0 +1,96 @@
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 1024px;
+  min-width: 500px;
+  width: 90%;
+  margin: auto;
+}
+
+.headingbox {
+  padding: 100px 40px;
+  background-image: url("https://www.artic.edu/iiif/2/90bc0cec-0d4e-9af5-3912-52a082a428e5/full/1024,/0/default.jpg");
+}
+
+.title,
+.heading {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+.heading {
+  margin: 20px 0px;
+  font-size: 2rem;
+}
+
+.title {
+  margin: 20px 0px 100px 0px;
+  font-size: 3rem;
+}
+
+label {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+form {
+  margin: auto;
+  border: 2px solid #c1c1c1;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #fff;
+  text-align: center;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 1px solid #c1c1c1;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+button {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 0px solid;
+  color: #fff;
+  background: #9d0c11;
+  background: linear-gradient(0deg, #9d0c11 62%, #ff004a 100%);
+  padding: 10px 40px;
+}
+
+button:hover {
+  background: rgb(208, 24, 29);
+  background: linear-gradient(0deg, #d0181d 62%, #fa7575 100%);
+}
+
+button:active {
+  background: rgb(119, 0, 3);
+  background: linear-gradient(0deg, #770003 71%, #e00000 100%);
+}
+
+.card {
+  padding: 30px 30px;
+  margin: 30px 0px;
+  border: 1px solid #c1c1c1;
+}
+
+.cardtitle,
+.cardheading,
+.carddetails {
+  padding: 0px 20px 0px 0px;
+}
+
+.photo {
+  padding: 20px 0px 0px;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .card {
+    display: flex;
+    justify-content: space-between;
+  }
+}
